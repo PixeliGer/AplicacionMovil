@@ -1,0 +1,653 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8" name="viewport" content="initial-scale=1.0, user-scalable=no">
+	<title>SSApp</title>
+	<link rel="stylesheet" type="text/css" href="css/themes/default/jquery.mobile-1.3.2.min.css">
+    <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.3.2.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="button.css">
+    
+</head>
+
+<body>
+<!-- PAGINA 1-->
+<div data-role="page" id="page1">
+    <!--<div data-role="panel" data-position-fixed="true" data-display="reveal" data-theme="a" id="nav-panel">
+        <ul data-role="listview" data-theme="a" class="nav-search">
+            <li data-icon="delete"><a href="#" data-rel="close">Cerrar Menu</a></li>
+                <li><a href="#panel-fixed-page2">Item 1</a></li>
+                <li><a href="#panel-fixed-page2">Item 2</a></li>
+                <li><a href="#panel-fixed-page2">Item 3</a></li>
+                <li><a href="#panel-fixed-page2">Item 4</a></li>
+        </ul>
+    </div><!-- /panel -->
+	<div data-theme="b" data-role="header" data-position="fixed">
+    	<h1>SSApp</h1>
+    	<!--<a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+    	<a href="#" data-icon="gear" data-iconpos="notext">Options</a>-->
+	</div><!-- /header -->
+	<div data-role="content">
+        <div style="width: 100%; height: 375px; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;">
+            <img src="image/health.jpg" alt="image" style="position: absolute; width: 100%; height: 100%;">
+        </div>
+        <div style=" text-align:center">
+             <h4>
+            Bienvenido a SSApp, esta aplicación le brindara información util de salud.
+            </h4>       
+        </div>
+    	<div class="ui-grid-b">
+    		<div class="ui-block-a"><div style="height:60px"></div></div>
+		</div><!-- /grid-c -->
+        
+		<fieldset class="ui-grid-solo">
+            <a href="#page2" data-transition="none" data-role="button" data-corners="false" data-theme="c">Aceptar</a>
+		</fieldset>
+        <div style=" text-align:center"></div>
+        <div style=" text-align:center"></div>
+    </div><!-- /content -->
+	    
+</div><!-- /page -->
+
+<!-- PAGINA 2-->
+<div data-role="page" id="page2">
+	<div data-theme="b" data-role="header" data-position="fixed">
+    	<h1>Inicio</h1>
+    </div><!-- /header -->
+
+	<div data-role="content">
+		<fieldset class="ui-grid-solo">
+    		<center><h4>TABLA DE PESO Y ESTATURA</h4></center>
+    		
+    	</fieldset><!-- /grid-c -->
+        
+        <div style="width: 100%; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;">
+            <table width="100%">
+                <tbody>
+                <tr>
+                <td></td>
+                <td colspan="6" align="CENTER" bgcolor="C643F7"><strong>Mujeres</strong></td>
+                <td colspan="6" align="CENTER" bgcolor="4382F7"><strong>Hombres</strong></td>
+                </tr>
+                <tr>
+                <td></td>
+                <td colspan="2" align="CENTER">Pequeña</td>
+                <td colspan="2" align="CENTER">Mediana</td>
+                <td colspan="2" align="CENTER">Grande</td>
+                <td colspan="2" align="CENTER">Pequeño</td>
+                <td colspan="2" align="CENTER">Mediano</td>
+                <td colspan="2" align="CENTER">Grande</td>
+                </tr>
+                <tr>
+                <td align="CENTER">Altura</td>
+                <td align="CENTER">Min.</td>
+                <td align="CENTER">Max.</td>
+                <td align="CENTER">Min.</td>
+                <td align="CENTER">Max.</td>
+                <td align="CENTER">Min.</td>
+                <td align="CENTER">Max.</td>
+                <td align="CENTER">Min.</td>
+                <td align="CENTER">Max.</td>
+                <td align="CENTER">Min.</td>
+                <td align="CENTER">Max.</td>
+                <td align="CENTER">Min.</td>
+                <td align="CENTER">Max.</td>
+                </tr>
+                <tr>
+                <td align="RIGHT" bgcolor="DDDDDD"><strong>1.5</strong></td>
+                <td align="CENTER" bgcolor="DDDDDD">45.0</td>
+                <td align="CENTER" bgcolor="BBBBBB">47.2</td>
+                <td align="CENTER" bgcolor="DDDDDD">46.1</td>
+                <td align="CENTER" bgcolor="BBBBBB">50.6</td>
+                <td align="CENTER" bgcolor="DDDDDD">47.2</td>
+                <td align="CENTER" bgcolor="BBBBBB">52.9</td>
+                <td align="CENTER" bgcolor="DDDDDD">45.0</td>
+                <td align="CENTER" bgcolor="BBBBBB">50.2</td>
+                <td align="CENTER" bgcolor="DDDDDD">48.4</td>
+                <td align="CENTER" bgcolor="BBBBBB">55.4</td>
+                <td align="CENTER" bgcolor="DDDDDD">50.6</td>
+                <td align="CENTER" bgcolor="BBBBBB">56.2</td>
+                </tr>
+                <tr>
+                <td align="RIGHT" bgcolor="DDDDDD"><strong>1.52</strong></td>
+                <td align="CENTER" bgcolor="DDDDDD">46.2</td>
+                <td align="CENTER" bgcolor="BBBBBB">48.5</td>
+                <td align="CENTER" bgcolor="DDDDDD">47.4</td>
+                <td align="CENTER" bgcolor="BBBBBB">52.0</td>
+                <td align="CENTER" bgcolor="DDDDDD">48.5</td>
+                <td align="CENTER" bgcolor="BBBBBB">54.3</td>
+                <td align="CENTER" bgcolor="DDDDDD">46.2</td>
+                <td align="CENTER" bgcolor="BBBBBB">51.5</td>
+                <td align="CENTER" bgcolor="DDDDDD">49.7</td>
+                <td align="CENTER" bgcolor="BBBBBB">56.9</td>
+                <td align="CENTER" bgcolor="DDDDDD">52.0</td>
+                <td align="CENTER" bgcolor="BBBBBB">57.8</td>
+                </tr>
+                <tr>
+                <td align="RIGHT" bgcolor="DDDDDD"><strong>1.54</strong></td>
+                <td align="CENTER" bgcolor="DDDDDD">47.4</td>
+                <td align="CENTER" bgcolor="BBBBBB">49.8</td>
+                <td align="CENTER" bgcolor="DDDDDD">48.6</td>
+                <td align="CENTER" bgcolor="BBBBBB">53.4</td>
+                <td align="CENTER" bgcolor="DDDDDD">49.8</td>
+                <td align="CENTER" bgcolor="BBBBBB">55.7</td>
+                <td align="CENTER" bgcolor="DDDDDD">47.4</td>
+                <td align="CENTER" bgcolor="BBBBBB">52.9</td>
+                <td align="CENTER" bgcolor="DDDDDD">51.0</td>
+                <td align="CENTER" bgcolor="BBBBBB">58.4</td>
+                <td align="CENTER" bgcolor="DDDDDD">53.4</td>
+                <td align="CENTER" bgcolor="BBBBBB">59.3</td>
+                </tr>
+                <tr>
+                <td align="RIGHT" bgcolor="DDDDDD"><strong>1.56</strong></td>
+                <td align="CENTER" bgcolor="DDDDDD">48.7</td>
+                <td align="CENTER" bgcolor="BBBBBB">51.1</td>
+                <td align="CENTER" bgcolor="DDDDDD">49.9</td>
+                <td align="CENTER" bgcolor="BBBBBB">54.8</td>
+                <td align="CENTER" bgcolor="DDDDDD">51.1</td>
+                <td align="CENTER" bgcolor="BBBBBB">57.2</td>
+                <td align="CENTER" bgcolor="DDDDDD">48.7</td>
+                <td align="CENTER" bgcolor="BBBBBB">54.3</td>
+                <td align="CENTER" bgcolor="DDDDDD">52.3</td>
+                <td align="CENTER" bgcolor="BBBBBB">59.9</td>
+                <td align="CENTER" bgcolor="DDDDDD">54.8</td>
+                <td align="CENTER" bgcolor="BBBBBB">60.8</td>
+                </tr>
+                <tr>
+                <td align="RIGHT" bgcolor="DDDDDD"><strong>1.58</strong></td>
+                <td align="CENTER" bgcolor="DDDDDD">49.9</td>
+                <td align="CENTER" bgcolor="BBBBBB">52.4</td>
+                <td align="CENTER" bgcolor="DDDDDD">51.2</td>
+                <td align="CENTER" bgcolor="BBBBBB">56.2</td>
+                <td align="CENTER" bgcolor="DDDDDD">52.4</td>
+                <td align="CENTER" bgcolor="BBBBBB">58.7</td>
+                <td align="CENTER" bgcolor="DDDDDD">49.9</td>
+                <td align="CENTER" bgcolor="BBBBBB">55.7</td>
+                <td align="CENTER" bgcolor="DDDDDD">53.7</td>
+                <td align="CENTER" bgcolor="BBBBBB">61.5</td>
+                <td align="CENTER" bgcolor="DDDDDD">56.2</td>
+                <td align="CENTER" bgcolor="BBBBBB">62.4</td>
+                </tr>
+                <tr>
+                <td align="RIGHT" bgcolor="EEEEEE"><strong>1.6</strong></td>
+                <td align="CENTER" bgcolor="EEEEEE">51.2</td>
+                <td align="CENTER" bgcolor="CCCCCC">53.8</td>
+                <td align="CENTER" bgcolor="EEEEEE">52.5</td>
+                <td align="CENTER" bgcolor="CCCCCC">57.6</td>
+                <td align="CENTER" bgcolor="EEEEEE">53.8</td>
+                <td align="CENTER" bgcolor="CCCCCC">60.2</td>
+                <td align="CENTER" bgcolor="EEEEEE">51.2</td>
+                <td align="CENTER" bgcolor="CCCCCC">57.1</td>
+                <td align="CENTER" bgcolor="EEEEEE">55.0</td>
+                <td align="CENTER" bgcolor="CCCCCC">63.0</td>
+                <td align="CENTER" bgcolor="EEEEEE">57.6</td>
+                <td align="CENTER" bgcolor="CCCCCC">64.0</td>
+                </tr>
+                <tr>
+                <td align="RIGHT" bgcolor="EEEEEE"><strong>1.62</strong></td>
+                <td align="CENTER" bgcolor="EEEEEE">52.5</td>
+                <td align="CENTER" bgcolor="CCCCCC">55.1</td>
+                <td align="CENTER" bgcolor="EEEEEE">53.8</td>
+                <td align="CENTER" bgcolor="CCCCCC">59.0</td>
+                <td align="CENTER" bgcolor="EEEEEE">55.1</td>
+                <td align="CENTER" bgcolor="CCCCCC">61.7</td>
+                <td align="CENTER" bgcolor="EEEEEE">52.5</td>
+                <td align="CENTER" bgcolor="CCCCCC">58.5</td>
+                <td align="CENTER" bgcolor="EEEEEE">56.4</td>
+                <td align="CENTER" bgcolor="CCCCCC">64.6</td>
+                <td align="CENTER" bgcolor="EEEEEE">59.0</td>
+                <td align="CENTER" bgcolor="CCCCCC">65.6</td>
+                </tr>
+                <tr>
+                <td align="RIGHT" bgcolor="EEEEEE"><strong>1.64</strong></td>
+                <td align="CENTER" bgcolor="EEEEEE">53.8</td>
+                <td align="CENTER" bgcolor="CCCCCC">56.5</td>
+                <td align="CENTER" bgcolor="EEEEEE">55.1</td>
+                <td align="CENTER" bgcolor="CCCCCC">60.5</td>
+                <td align="CENTER" bgcolor="EEEEEE">56.5</td>
+                <td align="CENTER" bgcolor="CCCCCC">63.2</td>
+                <td align="CENTER" bgcolor="EEEEEE">53.8</td>
+                <td align="CENTER" bgcolor="CCCCCC">60.0</td>
+                <td align="CENTER" bgcolor="EEEEEE">57.8</td>
+                <td align="CENTER" bgcolor="CCCCCC">66.2</td>
+                <td align="CENTER" bgcolor="EEEEEE">60.5</td>
+                <td align="CENTER" bgcolor="CCCCCC">67.2</td>
+                </tr>
+                <tr>
+                <td align="RIGHT" bgcolor="EEEEEE"><strong>1.66</strong></td>
+                <td align="CENTER" bgcolor="EEEEEE">55.1</td>
+                <td align="CENTER" bgcolor="CCCCCC">57.9</td>
+                <td align="CENTER" bgcolor="EEEEEE">56.5</td>
+                <td align="CENTER" bgcolor="CCCCCC">62.0</td>
+                <td align="CENTER" bgcolor="EEEEEE">57.9</td>
+                <td align="CENTER" bgcolor="CCCCCC">64.8</td>
+                <td align="CENTER" bgcolor="EEEEEE">55.1</td>
+                <td align="CENTER" bgcolor="CCCCCC">61.4</td>
+                <td align="CENTER" bgcolor="EEEEEE">59.2</td>
+                <td align="CENTER" bgcolor="CCCCCC">67.8</td>
+                <td align="CENTER" bgcolor="EEEEEE">62.0</td>
+                <td align="CENTER" bgcolor="CCCCCC">68.9</td>
+                </tr>
+                <tr>
+                <td align="RIGHT" bgcolor="EEEEEE"><strong>1.68</strong></td>
+                <td align="CENTER" bgcolor="EEEEEE">56.4</td>
+                <td align="CENTER" bgcolor="CCCCCC">59.3</td>
+                <td align="CENTER" bgcolor="EEEEEE">57.9</td>
+                <td align="CENTER" bgcolor="CCCCCC">63.5</td>
+                <td align="CENTER" bgcolor="EEEEEE">59.3</td>
+                <td align="CENTER" bgcolor="CCCCCC">66.3</td>
+                <td align="CENTER" bgcolor="EEEEEE">56.4</td>
+                <td align="CENTER" bgcolor="CCCCCC">62.9</td>
+                <td align="CENTER" bgcolor="EEEEEE">60.7</td>
+                <td align="CENTER" bgcolor="CCCCCC">69.5</td>
+                <td align="CENTER" bgcolor="EEEEEE">63.5</td>
+                <td align="CENTER" bgcolor="CCCCCC">70.6</td>
+                </tr>
+                <tr>
+                <td align="RIGHT" bgcolor="DDDDDD"><strong>1.7</strong></td>
+                <td align="CENTER" bgcolor="DDDDDD">57.8</td>
+                <td align="CENTER" bgcolor="BBBBBB">60.7</td>
+                <td align="CENTER" bgcolor="DDDDDD">59.2</td>
+                <td align="CENTER" bgcolor="BBBBBB">65.0</td>
+                <td align="CENTER" bgcolor="DDDDDD">60.7</td>
+                <td align="CENTER" bgcolor="BBBBBB">67.9</td>
+                <td align="CENTER" bgcolor="DDDDDD">57.8</td>
+                <td align="CENTER" bgcolor="BBBBBB">64.4</td>
+                <td align="CENTER" bgcolor="DDDDDD">62.1</td>
+                <td align="CENTER" bgcolor="BBBBBB">71.2</td>
+                <td align="CENTER" bgcolor="DDDDDD">65.0</td>
+                <td align="CENTER" bgcolor="BBBBBB">72.3</td>
+                </tr>
+                <tr>
+                <td align="RIGHT" bgcolor="DDDDDD"><strong>1.72</strong></td>
+                <td align="CENTER" bgcolor="DDDDDD">59.2</td>
+                <td align="CENTER" bgcolor="BBBBBB">62.1</td>
+                <td align="CENTER" bgcolor="DDDDDD">60.6</td>
+                <td align="CENTER" bgcolor="BBBBBB">66.6</td>
+                <td align="CENTER" bgcolor="DDDDDD">62.1</td>
+                <td align="CENTER" bgcolor="BBBBBB">69.5</td>
+                <td align="CENTER" bgcolor="DDDDDD">59.2</td>
+                <td align="CENTER" bgcolor="BBBBBB">66.0</td>
+                <td align="CENTER" bgcolor="DDDDDD">63.6</td>
+                <td align="CENTER" bgcolor="BBBBBB">72.8</td>
+                <td align="CENTER" bgcolor="DDDDDD">66.6</td>
+                <td align="CENTER" bgcolor="BBBBBB">74.0</td>
+                </tr>
+                <tr>
+                <td align="RIGHT" bgcolor="DDDDDD"><strong>1.74</strong></td>
+                <td align="CENTER" bgcolor="DDDDDD">60.6</td>
+                <td align="CENTER" bgcolor="BBBBBB">63.6</td>
+                <td align="CENTER" bgcolor="DDDDDD">62.1</td>
+                <td align="CENTER" bgcolor="BBBBBB">68.1</td>
+                <td align="CENTER" bgcolor="DDDDDD">63.6</td>
+                <td align="CENTER" bgcolor="BBBBBB">71.1</td>
+                <td align="CENTER" bgcolor="DDDDDD">60.6</td>
+                <td align="CENTER" bgcolor="BBBBBB">67.5</td>
+                <td align="CENTER" bgcolor="DDDDDD">65.1</td>
+                <td align="CENTER" bgcolor="BBBBBB">74.5</td>
+                <td align="CENTER" bgcolor="DDDDDD">68.1</td>
+                <td align="CENTER" bgcolor="BBBBBB">75.7</td>
+                </tr>
+                <tr>
+                <td align="RIGHT" bgcolor="DDDDDD"><strong>1.76</strong></td>
+                <td align="CENTER" bgcolor="DDDDDD">62.0</td>
+                <td align="CENTER" bgcolor="BBBBBB">65.0</td>
+                <td align="CENTER" bgcolor="DDDDDD">63.5</td>
+                <td align="CENTER" bgcolor="BBBBBB">69.7</td>
+                <td align="CENTER" bgcolor="DDDDDD">65.0</td>
+                <td align="CENTER" bgcolor="BBBBBB">72.8</td>
+                <td align="CENTER" bgcolor="DDDDDD">62.0</td>
+                <td align="CENTER" bgcolor="BBBBBB">69.1</td>
+                <td align="CENTER" bgcolor="DDDDDD">66.6</td>
+                <td align="CENTER" bgcolor="BBBBBB">76.3</td>
+                <td align="CENTER" bgcolor="DDDDDD">69.7</td>
+                <td align="CENTER" bgcolor="BBBBBB">77.4</td>
+                </tr>
+                <tr>
+                <td align="RIGHT" bgcolor="DDDDDD"><strong>1.78</strong></td>
+                <td align="CENTER" bgcolor="DDDDDD">63.4</td>
+                <td align="CENTER" bgcolor="BBBBBB">66.5</td>
+                <td align="CENTER" bgcolor="DDDDDD">65.0</td>
+                <td align="CENTER" bgcolor="BBBBBB">71.3</td>
+                <td align="CENTER" bgcolor="DDDDDD">66.5</td>
+                <td align="CENTER" bgcolor="BBBBBB">74.5</td>
+                <td align="CENTER" bgcolor="DDDDDD">63.4</td>
+                <td align="CENTER" bgcolor="BBBBBB">70.7</td>
+                <td align="CENTER" bgcolor="DDDDDD">68.1</td>
+                <td align="CENTER" bgcolor="BBBBBB">78.0</td>
+                <td align="CENTER" bgcolor="DDDDDD">71.3</td>
+                <td align="CENTER" bgcolor="BBBBBB">79.2</td>
+                </tr>
+                <tr>
+                <td align="RIGHT" bgcolor="EEEEEE"><strong>1.8</strong></td>
+                <td align="CENTER" bgcolor="EEEEEE">64.8</td>
+                <td align="CENTER" bgcolor="CCCCCC">68.0</td>
+                <td align="CENTER" bgcolor="EEEEEE">66.4</td>
+                <td align="CENTER" bgcolor="CCCCCC">72.9</td>
+                <td align="CENTER" bgcolor="EEEEEE">68.0</td>
+                <td align="CENTER" bgcolor="CCCCCC">76.1</td>
+                <td align="CENTER" bgcolor="EEEEEE">64.8</td>
+                <td align="CENTER" bgcolor="CCCCCC">72.3</td>
+                <td align="CENTER" bgcolor="EEEEEE">69.7</td>
+                <td align="CENTER" bgcolor="CCCCCC">79.8</td>
+                <td align="CENTER" bgcolor="EEEEEE">72.9</td>
+                <td align="CENTER" bgcolor="CCCCCC">81.0</td>
+                </tr>
+                <tr>
+                <td align="RIGHT" bgcolor="EEEEEE"><strong>1.82</strong></td>
+                <td align="CENTER" bgcolor="EEEEEE">66.2</td>
+                <td align="CENTER" bgcolor="CCCCCC">69.6</td>
+                <td align="CENTER" bgcolor="EEEEEE">67.9</td>
+                <td align="CENTER" bgcolor="CCCCCC">74.5</td>
+                <td align="CENTER" bgcolor="EEEEEE">69.6</td>
+                <td align="CENTER" bgcolor="CCCCCC">77.8</td>
+                <td align="CENTER" bgcolor="EEEEEE">66.2</td>
+                <td align="CENTER" bgcolor="CCCCCC">73.9</td>
+                <td align="CENTER" bgcolor="EEEEEE">71.2</td>
+                <td align="CENTER" bgcolor="CCCCCC">81.6</td>
+                <td align="CENTER" bgcolor="EEEEEE">74.5</td>
+                <td align="CENTER" bgcolor="CCCCCC">82.8</td>
+                </tr>
+                <tr>
+                <td align="RIGHT" bgcolor="EEEEEE"><strong>1.84</strong></td>
+                <td align="CENTER" bgcolor="EEEEEE">67.7</td>
+                <td align="CENTER" bgcolor="CCCCCC">71.1</td>
+                <td align="CENTER" bgcolor="EEEEEE">69.4</td>
+                <td align="CENTER" bgcolor="CCCCCC">76.2</td>
+                <td align="CENTER" bgcolor="EEEEEE">71.1</td>
+                <td align="CENTER" bgcolor="CCCCCC">79.6</td>
+                <td align="CENTER" bgcolor="EEEEEE">67.7</td>
+                <td align="CENTER" bgcolor="CCCCCC">75.5</td>
+                <td align="CENTER" bgcolor="EEEEEE">72.8</td>
+                <td align="CENTER" bgcolor="CCCCCC">83.4</td>
+                <td align="CENTER" bgcolor="EEEEEE">76.2</td>
+                <td align="CENTER" bgcolor="CCCCCC">84.6</td>
+                </tr>
+                <tr>
+                <td align="RIGHT" bgcolor="EEEEEE"><strong>1.86</strong></td>
+                <td align="CENTER" bgcolor="EEEEEE">69.2</td>
+                <td align="CENTER" bgcolor="CCCCCC">72.7</td>
+                <td align="CENTER" bgcolor="EEEEEE">70.9</td>
+                <td align="CENTER" bgcolor="CCCCCC">77.8</td>
+                <td align="CENTER" bgcolor="EEEEEE">72.7</td>
+                <td align="CENTER" bgcolor="CCCCCC">81.3</td>
+                <td align="CENTER" bgcolor="EEEEEE">69.2</td>
+                <td align="CENTER" bgcolor="CCCCCC">77.1</td>
+                <td align="CENTER" bgcolor="EEEEEE">74.4</td>
+                <td align="CENTER" bgcolor="CCCCCC">85.2</td>
+                <td align="CENTER" bgcolor="EEEEEE">77.8</td>
+                <td align="CENTER" bgcolor="CCCCCC">86.5</td>
+                </tr>
+                <tr>
+                <td align="RIGHT" bgcolor="EEEEEE"><strong>1.88</strong></td>
+                <td align="CENTER" bgcolor="EEEEEE">70.7</td>
+                <td align="CENTER" bgcolor="CCCCCC">74.2</td>
+                <td align="CENTER" bgcolor="EEEEEE">72.5</td>
+                <td align="CENTER" bgcolor="CCCCCC">79.5</td>
+                <td align="CENTER" bgcolor="EEEEEE">74.2</td>
+                <td align="CENTER" bgcolor="CCCCCC">83.1</td>
+                <td align="CENTER" bgcolor="EEEEEE">70.7</td>
+                <td align="CENTER" bgcolor="CCCCCC">78.8</td>
+                <td align="CENTER" bgcolor="EEEEEE">76.0</td>
+                <td align="CENTER" bgcolor="CCCCCC">87.0</td>
+                <td align="CENTER" bgcolor="EEEEEE">79.5</td>
+                <td align="CENTER" bgcolor="CCCCCC">88.4</td>
+                </tr>
+                <tr>
+                <td align="RIGHT" bgcolor="DDDDDD"><strong>1.9</strong></td>
+                <td align="CENTER" bgcolor="DDDDDD">72.2</td>
+                <td align="CENTER" bgcolor="BBBBBB">75.8</td>
+                <td align="CENTER" bgcolor="DDDDDD">74.0</td>
+                <td align="CENTER" bgcolor="BBBBBB">81.2</td>
+                <td align="CENTER" bgcolor="DDDDDD">75.8</td>
+                <td align="CENTER" bgcolor="BBBBBB">84.8</td>
+                <td align="CENTER" bgcolor="DDDDDD">72.2</td>
+                <td align="CENTER" bgcolor="BBBBBB">80.5</td>
+                <td align="CENTER" bgcolor="DDDDDD">77.6</td>
+                <td align="CENTER" bgcolor="BBBBBB">88.9</td>
+                <td align="CENTER" bgcolor="DDDDDD">81.2</td>
+                <td align="CENTER" bgcolor="BBBBBB">90.3</td>
+                </tr>
+                <tr>
+                <td align="RIGHT" bgcolor="DDDDDD"><strong>1.92</strong></td>
+                <td align="CENTER" bgcolor="DDDDDD">73.7</td>
+                <td align="CENTER" bgcolor="BBBBBB">77.4</td>
+                <td align="CENTER" bgcolor="DDDDDD">75.6</td>
+                <td align="CENTER" bgcolor="BBBBBB">82.9</td>
+                <td align="CENTER" bgcolor="DDDDDD">77.4</td>
+                <td align="CENTER" bgcolor="BBBBBB">86.6</td>
+                <td align="CENTER" bgcolor="DDDDDD">73.7</td>
+                <td align="CENTER" bgcolor="BBBBBB">82.2</td>
+                <td align="CENTER" bgcolor="DDDDDD">79.3</td>
+                <td align="CENTER" bgcolor="BBBBBB">90.8</td>
+                <td align="CENTER" bgcolor="DDDDDD">82.9</td>
+                <td align="CENTER" bgcolor="BBBBBB">92.2</td>
+                </tr>
+                <tr>
+                <td align="RIGHT" bgcolor="DDDDDD"><strong>1.94</strong></td>
+                <td align="CENTER" bgcolor="DDDDDD">75.3</td>
+                <td align="CENTER" bgcolor="BBBBBB">79.0</td>
+                <td align="CENTER" bgcolor="DDDDDD">77.2</td>
+                <td align="CENTER" bgcolor="BBBBBB">84.7</td>
+                <td align="CENTER" bgcolor="DDDDDD">79.0</td>
+                <td align="CENTER" bgcolor="BBBBBB">88.4</td>
+                <td align="CENTER" bgcolor="DDDDDD">75.3</td>
+                <td align="CENTER" bgcolor="BBBBBB">83.9</td>
+                <td align="CENTER" bgcolor="DDDDDD">80.9</td>
+                <td align="CENTER" bgcolor="BBBBBB">92.7</td>
+                <td align="CENTER" bgcolor="DDDDDD">84.7</td>
+                <td align="CENTER" bgcolor="BBBBBB">94.1</td>
+                </tr>
+                <tr>
+                <td align="RIGHT" bgcolor="DDDDDD"><strong>1.96</strong></td>
+                <td align="CENTER" bgcolor="DDDDDD">76.8</td>
+                <td align="CENTER" bgcolor="BBBBBB">80.7</td>
+                <td align="CENTER" bgcolor="DDDDDD">78.8</td>
+                <td align="CENTER" bgcolor="BBBBBB">86.4</td>
+                <td align="CENTER" bgcolor="DDDDDD">80.7</td>
+                <td align="CENTER" bgcolor="BBBBBB">90.3</td>
+                <td align="CENTER" bgcolor="DDDDDD">76.8</td>
+                <td align="CENTER" bgcolor="BBBBBB">85.7</td>
+                <td align="CENTER" bgcolor="DDDDDD">82.6</td>
+                <td align="CENTER" bgcolor="BBBBBB">94.6</td>
+                <td align="CENTER" bgcolor="DDDDDD">86.4</td>
+                <td align="CENTER" bgcolor="BBBBBB">96.0</td>
+                </tr>
+                <tr>
+                <td align="RIGHT" bgcolor="DDDDDD"><strong>1.98</strong></td>
+                <td align="CENTER" bgcolor="DDDDDD">78.4</td>
+                <td align="CENTER" bgcolor="BBBBBB">82.3</td>
+                <td align="CENTER" bgcolor="DDDDDD">80.4</td>
+                <td align="CENTER" bgcolor="BBBBBB">88.2</td>
+                <td align="CENTER" bgcolor="DDDDDD">82.3</td>
+                <td align="CENTER" bgcolor="BBBBBB">92.1</td>
+                <td align="CENTER" bgcolor="DDDDDD">78.4</td>
+                <td align="CENTER" bgcolor="BBBBBB">87.4</td>
+                <td align="CENTER" bgcolor="DDDDDD">84.3</td>
+                <td align="CENTER" bgcolor="BBBBBB">96.5</td>
+                <td align="CENTER" bgcolor="DDDDDD">88.2</td>
+                <td align="CENTER" bgcolor="BBBBBB">98.0</td>
+                </tr>
+                <tr>
+                <td align="RIGHT" bgcolor="EEEEEE"><strong>2</strong></td>
+                <td align="CENTER" bgcolor="EEEEEE">80.0</td>
+                <td align="CENTER" bgcolor="CCCCCC">84.0</td>
+                <td align="CENTER" bgcolor="EEEEEE">82.0</td>
+                <td align="CENTER" bgcolor="CCCCCC">90.0</td>
+                <td align="CENTER" bgcolor="EEEEEE">84.0</td>
+                <td align="CENTER" bgcolor="CCCCCC">94.0</td>
+                <td align="CENTER" bgcolor="EEEEEE">80.0</td>
+                <td align="CENTER" bgcolor="CCCCCC">89.2</td>
+                <td align="CENTER" bgcolor="EEEEEE">86.0</td>
+                <td align="CENTER" bgcolor="CCCCCC">98.5</td>
+                <td align="CENTER" bgcolor="EEEEEE">90.0</td>
+                <td align="CENTER" bgcolor="CCCCCC">100.0</td>
+                </tr>
+                <tr>
+                <td align="RIGHT" bgcolor="EEEEEE"><strong>2.02</strong></td>
+                <td align="CENTER" bgcolor="EEEEEE">81.6</td>
+                <td align="CENTER" bgcolor="CCCCCC">85.7</td>
+                <td align="CENTER" bgcolor="EEEEEE">83.6</td>
+                <td align="CENTER" bgcolor="CCCCCC">91.8</td>
+                <td align="CENTER" bgcolor="EEEEEE">85.7</td>
+                <td align="CENTER" bgcolor="CCCCCC">95.9</td>
+                <td align="CENTER" bgcolor="EEEEEE">81.6</td>
+                <td align="CENTER" bgcolor="CCCCCC">91.0</td>
+                <td align="CENTER" bgcolor="EEEEEE">87.7</td>
+                <td align="CENTER" bgcolor="CCCCCC">100.5</td>
+                <td align="CENTER" bgcolor="EEEEEE">91.8</td>
+                <td align="CENTER" bgcolor="CCCCCC">102.0</td>
+                </tr>
+                <tr>
+                <td align="RIGHT" bgcolor="EEEEEE"><strong>2.04</strong></td>
+                <td align="CENTER" bgcolor="EEEEEE">83.2</td>
+                <td align="CENTER" bgcolor="CCCCCC">87.4</td>
+                <td align="CENTER" bgcolor="EEEEEE">85.3</td>
+                <td align="CENTER" bgcolor="CCCCCC">93.6</td>
+                <td align="CENTER" bgcolor="EEEEEE">87.4</td>
+                <td align="CENTER" bgcolor="CCCCCC">97.8</td>
+                <td align="CENTER" bgcolor="EEEEEE">83.2</td>
+                <td align="CENTER" bgcolor="CCCCCC">92.8</td>
+                <td align="CENTER" bgcolor="EEEEEE">89.5</td>
+                <td align="CENTER" bgcolor="CCCCCC">102.5</td>
+                <td align="CENTER" bgcolor="EEEEEE">93.6</td>
+                <td align="CENTER" bgcolor="CCCCCC">104.0</td>
+                </tr>
+                <tr>
+                <td align="RIGHT" bgcolor="EEEEEE"><strong>2.06</strong></td>
+                <td align="CENTER" bgcolor="EEEEEE">84.9</td>
+                <td align="CENTER" bgcolor="CCCCCC">89.1</td>
+                <td align="CENTER" bgcolor="EEEEEE">87.0</td>
+                <td align="CENTER" bgcolor="CCCCCC">95.5</td>
+                <td align="CENTER" bgcolor="EEEEEE">89.1</td>
+                <td align="CENTER" bgcolor="CCCCCC">99.7</td>
+                <td align="CENTER" bgcolor="EEEEEE">84.9</td>
+                <td align="CENTER" bgcolor="CCCCCC">94.6</td>
+                <td align="CENTER" bgcolor="EEEEEE">91.2</td>
+                <td align="CENTER" bgcolor="CCCCCC">104.5</td>
+                <td align="CENTER" bgcolor="EEEEEE">95.5</td>
+                <td align="CENTER" bgcolor="CCCCCC">106.1</td>
+                </tr>
+                <tr>
+                <td align="RIGHT" bgcolor="EEEEEE"><strong>2.08</strong></td>
+                <td align="CENTER" bgcolor="EEEEEE">86.5</td>
+                <td align="CENTER" bgcolor="CCCCCC">90.9</td>
+                <td align="CENTER" bgcolor="EEEEEE">88.7</td>
+                <td align="CENTER" bgcolor="CCCCCC">97.3</td>
+                <td align="CENTER" bgcolor="EEEEEE">90.9</td>
+                <td align="CENTER" bgcolor="CCCCCC">101.7</td>
+                <td align="CENTER" bgcolor="EEEEEE">86.5</td>
+                <td align="CENTER" bgcolor="CCCCCC">96.5</td>
+                <td align="CENTER" bgcolor="EEEEEE">93.0</td>
+                <td align="CENTER" bgcolor="CCCCCC">106.5</td>
+                <td align="CENTER" bgcolor="EEEEEE">97.3</td>
+                <td align="CENTER" bgcolor="CCCCCC">108.2</td>
+                </tr>
+                </tbody>
+            </table>    
+        </div>
+    </div>            
+    <!-- /content -->
+	
+	
+    <div data-role="footer" data-id="foo1" data-position="fixed">
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#page2" data-transition="none" data-icon="home" class="ui-btn-active ui-state-persist">Inicio</a></li>
+				<li><a href="#page3" data-transition="none" data-icon="star">Friends</a></li>
+				<li><a href="#page4" data-transition="none" data-icon="info">Info</a></li>
+			</ul>
+		</div><!-- /navbar -->
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<!-- PAGINA 3-->
+<div data-role="page" id="page3">
+    <div data-theme="b" data-role="header" data-position="fixed">
+        <h1>INDICE</h1>
+    </div><!-- /header -->
+
+    <div data-role="content">
+        <div class="ui-grid-b">
+            <div class="ui-block-a"><div style="height:60px"></div></div>
+            <div class="ui-block-b"><div style="height:60px"></div></div>
+            <div class="ui-block-c"><div style="height:60px"></div></div>
+
+            
+        </div><!-- /grid-c -->
+        <div style=" text-align:center">
+            <div data-role="collapsible-set" data-theme="a" data-content-theme="a">
+                <div data-role="collapsible">
+                    <h3>1 - Theme A</h3>
+                    <p>Content theme A</p>
+                </div>
+                <div data-role="collapsible">
+                    <h3>2 - Theme A</h3>
+                    <p>Content theme A</p>
+                </div>
+            </div>
+        </div>
+
+                <div style=" text-align:center">
+                
+                </div>
+
+                <div style=" text-align:center">
+                    
+                </div>
+    </div>            
+    <!-- /content -->
+    
+    <div data-role="footer" data-id="foo1" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#page2" data-transition="none" data-icon="home">Inicio</a></li>
+                <li><a href="#page3" data-transition="none" data-icon="star" class="ui-btn-active ui-state-persist">Friends</a></li>
+                <li><a href="#page4" data-transition="none" data-icon="info">Info</a></li>
+            </ul>
+        </div><!-- /navbar -->
+    </div><!-- /footer -->
+</div><!-- /page -->
+
+<!-- PAGINA 4-->
+<div data-role="page" id="page4"z>
+    <div data-theme="b" data-role="header" data-position="fixed">
+        <h1>INFO</h1>
+    </div><!-- /header -->
+
+    <div data-role="content">
+        <div class="ui-grid-b">
+            <div class="ui-block-a"><div style="height:60px"></div></div>
+            <div class="ui-block-b"><div style="height:60px"></div></div>
+            <div class="ui-block-c"><div style="height:60px"></div></div>
+        </div><!-- /grid-c -->
+        <div style=" text-align:justified">
+        <h3>SSApp</h3>
+        <h3>Version 1.0</h3>
+        <h3>Esta aplicacion le permite consultar información de Salud, dirijase al Indice para consultar lo que le sea de interes posteriormente se desplegara en el dispositivo.</h3>
+        <h3>Contacto
+            <a href="mailto:pixeliger@gmail.com">pixeliger@gmail.com</a>
+        </h3>
+        <h3>Software bajo licencia GPL v3</h3>
+        <h3>Desarrollado por German Emmanuel</h3>                    
+        </div>
+
+                <div style=" text-align:center">
+                    
+                </div>
+    </div>            
+    <!-- /content -->
+    <div data-role="footer" data-id="foo1" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#page2" data-transition="none" data-icon="home">Inicio</a></li>
+                <li><a href="#page3" data-transition="none" data-icon="star">Friends</a></li>
+                <li><a href="#page4" data-transition="none" data-icon="info" class="ui-btn-active ui-state-persist">Info</a></li>
+            </ul>
+        </div><!-- /navbar -->
+    </div><!-- /footer -->
+</div><!-- /page -->
+
+</body>
+
+</html>
