@@ -28,7 +28,7 @@
     	<a href="#" data-icon="gear" data-iconpos="notext">Options</a>-->
 	</div><!-- /header -->
 	<div data-role="content">
-        <div style="width: 100%; height: 375px; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;">
+        <div style="width: 100%; height: 300px; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;">
             <img src="image/health.jpg" alt="image" style="position: absolute; width: 100%; height: 100%;">
         </div>
         <div style=" text-align:center">
@@ -51,8 +51,9 @@
 
 <!-- PAGINA 2-->
 <div data-role="page" id="page2">
+
 	<div data-theme="b" data-role="header" data-position="fixed">
-    	<h1>Inicio</h1>
+    	<h1>INICIO</h1>
     </div><!-- /header -->
 
 	<div data-role="content">
@@ -66,8 +67,8 @@
                 <tbody>
                 <tr>
                 <td></td>
-                <td colspan="6" align="CENTER" bgcolor="C643F7"><strong>Mujeres</strong></td>
-                <td colspan="6" align="CENTER" bgcolor="4382F7"><strong>Hombres</strong></td>
+                <td colspan="6" align="CENTER" bgcolor="C643F7"><strong>MUJERES</strong></td>
+                <td colspan="6" align="CENTER" bgcolor="4382F7"><strong>HOMBRES</strong></td>
                 </tr>
                 <tr>
                 <td></td>
@@ -554,7 +555,7 @@
 		<div data-role="navbar">
 			<ul>
 				<li><a href="#page2" data-transition="none" data-icon="home" class="ui-btn-active ui-state-persist">Inicio</a></li>
-				<li><a href="#page3" data-transition="none" data-icon="star">Friends</a></li>
+				<li><a href="#page3" data-transition="none" data-icon="star">Indice</a></li>
 				<li><a href="#page4" data-transition="none" data-icon="info">Info</a></li>
 			</ul>
 		</div><!-- /navbar -->
@@ -568,33 +569,37 @@
     </div><!-- /header -->
 
     <div data-role="content">
-        <div class="ui-grid-b">
-            <div class="ui-block-a"><div style="height:60px"></div></div>
-            <div class="ui-block-b"><div style="height:60px"></div></div>
-            <div class="ui-block-c"><div style="height:60px"></div></div>
+        
+            <div>
+                <div data-role="collapsible" data-theme="a" data-content-theme="d" data-collapsed="false" data-inset="false">
+                    <h3>Salud</h3>
 
-            
-        </div><!-- /grid-c -->
-        <div style=" text-align:center">
-            <div data-role="collapsible-set" data-theme="a" data-content-theme="a">
-                <div data-role="collapsible">
-                    <h3>1 - Theme A</h3>
-                    <p>Content theme A</p>
+                    <ul data-role="listview">
+                        <li><a href="#salud1">Ejercicio</a></li>
+                        <li><a href="#salud2">Alimentación</a></li>
+                        <li><a href="#salud3">Antibioticos</a></li>
+                        
+                    </ul>
                 </div>
-                <div data-role="collapsible">
-                    <h3>2 - Theme A</h3>
-                    <p>Content theme A</p>
+                <div data-role="collapsible" data-theme="a" data-content-theme="d" data-collapsed="false" data-inset="false">
+                    <h3>Prevención</h3>
+                    <p>Cada año, los accidentes en el hogar cobran un gran número de vidas además de muchas personas con discapacidad y lesiones de todo tipo. Después de los accidentes de tráfico, son la segunda causa de mortalidad principalmente en los menores de edad y en los adultos mayores.</p>
+                    <p>Recuerde que los accidentes son evitables en más del 90% de los casos, olvidemos que son producto del azar y que si seguimos algunas recomendaciones y evitamos situaciones riesgosas podemos conservar la integridad de nuestras familias, entre los riegos más importantes encontramos los siguientes:</p>
+                    <p><li>Caídas.</li>
+                    <li>Intoxicaciones, alergias e irritaciones.</li>
+                    <li>Quemaduras.</li></p>
+                    <ul data-role="listview">
+                        <li><a href="#prev1" data-transition="none">Prevención de caídas</a></li>
+                        <li><a href="#prev2" data-transition="none">Prevención de intoxicaciones, alergias e irritaciones</a></li>
+                        <li><a href="#prev3" data-transition="none">Prevención de quemaduras</a></li>
+                                                
+                    </ul>
                 </div>
             </div>
-        </div>
+            
+        
 
-                <div style=" text-align:center">
                 
-                </div>
-
-                <div style=" text-align:center">
-                    
-                </div>
     </div>            
     <!-- /content -->
     
@@ -602,7 +607,7 @@
         <div data-role="navbar">
             <ul>
                 <li><a href="#page2" data-transition="none" data-icon="home">Inicio</a></li>
-                <li><a href="#page3" data-transition="none" data-icon="star" class="ui-btn-active ui-state-persist">Friends</a></li>
+                <li><a href="#page3" data-transition="none" data-icon="star" class="ui-btn-active ui-state-persist">Indice</a></li>
                 <li><a href="#page4" data-transition="none" data-icon="info">Info</a></li>
             </ul>
         </div><!-- /navbar -->
@@ -616,12 +621,7 @@
     </div><!-- /header -->
 
     <div data-role="content">
-        <div class="ui-grid-b">
-            <div class="ui-block-a"><div style="height:60px"></div></div>
-            <div class="ui-block-b"><div style="height:60px"></div></div>
-            <div class="ui-block-c"><div style="height:60px"></div></div>
-        </div><!-- /grid-c -->
-        <div style=" text-align:justified">
+        <div style=" text-align:justify">
         <h3>SSApp</h3>
         <h3>Version 1.0</h3>
         <h3>Esta aplicacion le permite consultar información de Salud, dirijase al Indice para consultar lo que le sea de interes posteriormente se desplegara en el dispositivo.</h3>
@@ -641,12 +641,182 @@
         <div data-role="navbar">
             <ul>
                 <li><a href="#page2" data-transition="none" data-icon="home">Inicio</a></li>
-                <li><a href="#page3" data-transition="none" data-icon="star">Friends</a></li>
+                <li><a href="#page3" data-transition="none" data-icon="star">Indice</a></li>
                 <li><a href="#page4" data-transition="none" data-icon="info" class="ui-btn-active ui-state-persist">Info</a></li>
             </ul>
         </div><!-- /navbar -->
     </div><!-- /footer -->
 </div><!-- /page -->
+
+
+<!-- SALUD -->
+<div data-role="page" id="salud1">
+    <div data-theme="b" data-role="header" data-position="fixed">
+        <a data-rel="back" data-icon="back">Atras</a>
+        <h1>EJERCICIO</h1>
+    </div>
+    <div data-role="content">
+        <div style="width: 100%; height:400px ; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;">
+            <img src="image/ejercicio.jpg" alt="image" style="position: absolute; width: 100%; height: 100%;">
+        </div>
+        <div style=" text-align:justify; font-size: large ;position: relative;">
+            <p>Seguramente ya sabes que practicar actividad física regularmente es necesario y bueno 
+                para la salud, pero ¿en qué puede ayudarte practicar actividad física?</p>
+            <p><ul>
+                <li>Mejora tu salud y previene la enfermedad: reduce el riesgo de que padezcas 
+                    enfermedades cardiacas y tensión arterial elevada, de padecer diabetes y también te 
+                    ayuda a controlarla, disminuye el colesterol, reduce el riesgo de osteoporosis, ayuda 
+                    a evitar el estreñimiento.</li>
+                <li>En los ancianos retrasa el declinar mental, mejora la capacidad funcional y disminuye 
+                    el riesgo de caídas.</li>
+                <li>Ejerce una modesta acción en la prevención del cáncer de mama, colon y próstata.</li>
+                <li>Mejora tu condición física: la resistencia, la fuerza, flexibilidad, la agilidad, la 
+                    respiración, la circulación.</li>
+                <li>Junto a la dieta es esencial en el control de tu peso corporal.</li>
+                <li>Facilita que te relaciones con otras personas.</li>
+                <li>Mejora tu sensación de bienestar y reduce el stress. Previene y te ayuda a mejorar la 
+                    depresión.</li>
+                <li>Aumenta tu autoestima y mejora tu estado de ánimo.</li>
+                <li>Mejora tu rendimiento académico.</li>
+                
+            </ul></p>
+            <p>
+            <h4>Lo mínimo e imprescindible:</h4>Sería ½ hora de actividad física moderada (que se note que aumentan las pulsaciones y la 
+                sudoración) 5 días a la semana. Esta ½ hora puede realizarse acumulando a lo largo del día 
+                periodos más cortos de tiempo. Empezar poco a poco e ir aumentando progresivamente. Los 
+                jóvenes al menos una hora. 
+            </p>                  
+        </div>
+    </div>
+</div>
+
+<div data-role="page" id="salud2">
+    <div data-theme="b" data-role="header" data-position="fixed">
+        <a data-rel="back" data-icon="back">Atras</a>
+        <h1>ALIMENTACION</h1>
+    </div>
+
+    <div data-role="content">
+        <div style="width: 100%; height:400px ; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;">
+            <img src="image/alimentacion.jpg" alt="image" style="position: absolute; width: 100%; height: 100%;">
+        </div>
+        <div style=" text-align:justify; font-size: large ;position: relative;">
+            <p>Una buena alimentación debe adecuarse a la edad, sexo, peso, talla y actividad física e intelectual de cada persona. Se debe considerar también el clima y los estados especiales como embarazos, lactancia, enfermedades, etc.</p>
+            <p>El cuerpo humano puede compararse con una máquina que está siempre realizando complejas actividades, por lo que una alimentación equilibrada es el mejor combustible para mantener una buena salud.</p>
+            <h4>Recomendaciones para una alimentación correcta</h4>
+
+            <p><ul>
+                <li>Incluir al menos un alimento de cada grupo en cada una de las tres principales comidas del día.</li>
+                <li>Comer la mayor variedad posible de alimentos:
+Muchas verduras y frutas, en lo posible crudas y con cáscara, preferir las de temporada que son más baratas y de mejor calidad. Con moderación cereales (tortilla, pan integral, pastas y galletas, arroz o avena), combinados con leguminosas (frijoles, lentejas, habas o garbanzos). 
+Pocos alimentos de origen animal, preferir el pescado o el pollo sin piel a las carnes de cerdo, borrego o res. </li>
+                <li>Comer de acuerdo con las necesidades y condiciones individuales. Ni de más ni de menos.</li>
+                <li>Consumir lo menos posible de grasas, aceites, azúcar y sal.</li>
+                <li>Beber agua pura en abundancia.</li>
+                <li>Realizar 30 minutos de actividad física al día.</li>
+            </ul></p>
+            <h4>Grupos Alimenticios</h4>
+            <p>Los alimentos son vehículo de los nutrimentos, es decir, le permiten al ser humano obtener las sustancias que necesita para llevar a cabo sus funciones vitales.</p>
+            <p>Aunque la oferta de alimentos cambia de un país a otro y de una cultura a otra, por lo general es rica en variedad y esto es importante porque una dieta variada asegura el consumo de los nutrimentos que el organismo necesita.</p>
+            <p>Bajo este concepto, la combinación adecuada y suficiente de por lo menos un alimento de cada grupo en cada comida, es la manera de obtener una alimentación saludable.</p>
+            <p>De acuerdo a los nutrientes que aportan los alimentos, se les clasifica en tres grupos.</p>
+            <p><ul>
+            <li>Verduras y frutas: Aportan principalmente agua, fibra, vitaminas (antioxidantes) y minerales.</li>
+            <li>Cereales: Aportan energía.</li>
+            <li>Leguminosas y alimentos de origen animal: Aportan proteínas, hierro, grasas y vitaminas.</li>
+            </ul></p>
+                    
+        </div>
+    </div>
+
+    
+</div>
+
+<!-- PREVENCION -->
+<div data-role="page" id="prev1">
+    <div data-theme="b" data-role="header" data-position="fixed">
+        <a data-rel="back" data-icon="back">Atras</a>
+        <h1>CAÍDAS</h1>
+    </div>
+
+    <div data-role="content">
+        <div style="width: 100%; height:400px ; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;">
+            <img src="image/caida.png" alt="image" style="position: absolute; width: 100%; height: 100%;">
+        </div>
+        <div style=" text-align:justify; font-size: large ;position: relative;">
+            <p><ul>
+                <li>Mantenga el suelo lo más libre posible de obstáculos.</li>
+                <li>Evite tener las superficies resbaladizas. Ténganse siempre limpias.</li>
+                <li>En el baño, utilice alfombras o pegatinas antideslizantes.</li>
+                <li>Revise que las escaleras de acceso a la vivienda tengan barandilla.</li>
+                <li>Las puertas, balcones, ventanas que den acceso sobre zonas de riesgo de caída, deben disponer de un sistema de bloqueo que impida su apertura a los niños.</li>
+                <li>Pida ayuda para transportar bultos voluminosos, aunque no sean pesados.</li>
+                <li>No utilice escaleras de mano defectuosas ni las baje de espaldas. El uso de escaleras debe estar prohibido a los niños.</li>
+                <li>Utilice preferentemente escaleras de mano dobles (de tijera) para trabajar o alcanzar objetos elevados.</li>
+                <li>Revise su escalera de mano antes de usarla.</li>
+                <li>No suban a la vez más de una persona a una escalera de mano.</li>
+                <li>Fije las estanterías firmemente a la pared.</li>
+                <li>No suba ni permita que los niños suban sobre muebles y permanezcan en ellos de pié.</li>
+            </ul></p>
+                    
+        </div>
+    </div>
+
+    
+</div>
+<div data-role="page" id="prev2">
+
+    <div data-theme="b" data-role="header" data-position="fixed">
+        <a data-rel="back" data-icon="back">Atras</a>
+        <h1>INTOXICACIONES, ALERGIAS E IRRITANTES</h1>
+    </div>
+
+    <div data-role="content">
+        <div style="width: 100%; height:400px ; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;">
+            <img src="image/intoxicacion.jpg" alt="image" style="position: absolute; width: 100%; height: 100%;">
+        </div>
+        <div style=" text-align:justify; font-size: large;">
+            <p>Las causa principales de Intoxicaciones, alergias e irritaciones suelen ser: Medicamentos, productos de limpieza, insecticidas y productos de jardinería, pinturas, disolventes y adhesivos, combustibles (y productos derivados de la combustión), productos de perfumería y cosmética, bebidas alcohólicas.</p>
+            <p>
+            <ul>
+            <li>Los accidentes causados por estos productos son, en general, consecuencia de su ingestión y, más raramente, de su inhalación o contacto con la piel.</li>
+            <li>Guardar dichos productos en lugar seguro, fuera del alcance de los niños.</li>
+            <li>Etiquetar debidamente los recipientes y a ser posible mantener los productos en sus envases originales.</li>
+            <li>Evite usar envases de productos alimenticios, o los utilizados para agua o bebidas refrescantes.</li>
+            <li>No almacenar conjuntamente distintos tipos de productos (alimenticios, tóxicos, etc.)</li></ul></p>                    
+        </div>
+    </div>
+
+    
+</div> 
+<div data-role="page" id="prev3">
+    <div data-theme="b" data-role="header" data-position="fixed">
+        <a data-rel="back" data-icon="back">Atras</a>
+        <h1>QUEMADURAS</h1>
+    </div>
+
+    <div data-role="content">
+        <div style="width: 100%; height:400px ; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;">
+            <img src="image/quemaduras.png" alt="image" style="position: absolute; width: 100%; height: 100%;">
+        </div>
+        <div style=" text-align:justify; font-size: large;">
+        <p><ul>
+            <li>Colocar en lo posible protecciones alrededor de aquellos objetos que se encuentran calientes y que resultan accesibles necesariamente.</li>
+            <li>Seleccionar y utilizar objetos provistos de elementos de agarre aislante (mangos, asas, etc.), en buen estado.</li>
+            <li>Utilizar guantes o manoplas aislantes para mover objetos calientes o manipular dentro de un horno encendido.</li>
+            <li>Evitar las salpicaduras, usando cubiertas o tapaderas.</li>
+            <li>Los mangos de sartenes, cacerolas y pucheros no deben sobresalir del mueble de cocina.</li>
+            <li>Alejar a los niños de la cocina y zona de planchar.</li>
+            <li>Manipule con cuidado cohetes, petardos y cartuchos y no los deje al alcance de los niños.</li>
+            <li>Manipule con cuidado cualquier producto químico así como la sosa caústica o la cal viva.</li>
+        </ul></p>            
+        </div>
+    </div>
+
+    
+</div> 
+
+ 
 
 </body>
 
